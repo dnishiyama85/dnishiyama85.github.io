@@ -1,0 +1,27 @@
+#reversi_board {
+  border-collapse: collapse;
+}
+
+.board_cell {
+  width: 40px;
+  height: 40px;
+  border: solid 1px black;
+  background-color: green;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.disc {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.disc.black {
+  background-color: black;
+}
+
+.disc.white {
+  background-color: white;  
+}
